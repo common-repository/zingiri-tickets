@@ -1,0 +1,17 @@
+.cc-support-us {
+	border-radius: 3px 3px 3px 3px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #FFFFE0;
+	border-color: #E6DB55;
+	margin: 15px;
+	padding: 10px;
+	text-align:center;
+}
+.cc-support-us p {
+}
+
+.ostbody, .ostbody span, .ostbody a, .ostbody td, .ostbody textarea, .ostbody input, .ostbody select {
+	font-family: sans-serif;
+	font-size: 13px;
+}

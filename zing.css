@@ -1,0 +1,11 @@
+ul.tabbernav li {
+ background:none;
+}
+
+#nav ul#main_nav li a,    #nav ul#main_nav li a.active {
+ background:none;
+}
+
+.art-BlockContent-body ul li {
+	background-image: none;
+}

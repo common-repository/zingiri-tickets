@@ -1,0 +1,412 @@
+.ostbody {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 9pt;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.ostbody table input {
+	width: auto;
+	height: auto;
+}
+
+.ostbody img,fieldset {
+	border: None;
+}
+
+.ostbody fieldset {
+	clear: both;
+	margin: 0;
+	padding: 2px 0 2px 0;
+}
+
+.ostbody .btn,.btn a {
+	display: block;
+	width: 134px !important;
+	height: 27px;
+	border: none;
+	font-family: arial, helvetica, sans-serif !important;
+	line-height: 27px !important;
+	background: url(../../osticket/upload/images/button.jpg) top left no-repeat;
+	text-align: center;
+	color: #fff !important;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.ostbody form .btn {
+	padding-bottom: 4px;
+}
+
+.ostbody h1,h2,h3 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.ostbody th {
+	font-weight: bold;
+	text-align: left;
+	padding-left: 3.5px;
+}
+
+.ostbody #container {
+	width: 100%;
+	margin: 5px auto 0 auto;
+	border: 1px solid;
+	text-align: left;
+}
+
+.ostbody #header {
+	padding: 0 10px 0 0;
+	height: 64px;
+	border-bottom: 1px solid;
+	overflow: none;
+}
+
+.ostbody #footer {
+	height: 24px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	text-align: center;
+	overflow: none;
+}
+
+.ostbody #logo {
+	width: 222px;
+	height: 64px;
+	display: block;
+	float: left;
+}
+
+.ostbody #header p {
+	width: 300px;
+	float: right;
+	font-size: 10px;
+	line-height: 10px;
+	height: 10px;
+	text-transform: uppercase;
+	text-align: right;
+	padding-bottom: 5px;
+}
+
+.ostbody #ostnav {
+	clear: both;
+}
+
+.ostbody #ostnav {
+	clear: both;
+	margin: 0;
+	padding: 0 40px 0 0;
+	height: 24px;
+	border-bottom: 1px solid;
+}
+
+.ostbody ul li:before {
+	content: none;
+	padding-right:0px;
+}
+
+.ostbody #ostnav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+.ostbody #ostnav li a {
+	height: 24px;
+	line-height: 24px;
+	display: block;
+	float: left;
+	padding-left: 25px;
+	margin: 0 10px 0 10px;
+	text-decoration: none;
+	font-weight: bold;
+	float: right;
+}
+
+.ostbody #ostnav a.home {
+	background: url(../../osticket/upload/images/home.gif) 0 5px no-repeat;
+}
+
+.ostbody #ostnav a.new_ticket {
+	background: url(../../osticket/upload/images/new_ticket.gif) 0 5px no-repeat;
+}
+
+.ostbody #ostnav a.my_tickets {
+	background: url(../../osticket/upload/images/my_tickets.gif) 0 5px no-repeat;
+}
+
+.ostbody #ostnav a.ticket_status {
+	background: url(../../osticket/upload/images/ticket_status.gif) 0 5px no-repeat;
+}
+
+.ostbody #ostnav a.log_out {
+	background: url(../../osticket/upload/images/logout.gif) 0 5px no-repeat;
+}
+
+.ostbody #content {
+	clear: both;
+	padding: 2px 10px 10px 10px;
+	line-height: 14pt;
+	margin: 5px auto 5px auto;
+}
+
+.ostbody #content form {
+	margin: 0;
+	padding: 0;
+}
+
+.ostbody #content form.status_form fieldset {
+	clear: none;
+}
+
+.ostbody #content form label {
+	display: block;
+	width: 60px;
+	padding-right: 10px;
+	text-align: right;
+	float: left;
+	font-weight: bold;
+}
+
+.ostbody #content #index form input {
+	width: 175px;
+	float: left;
+}
+
+.ostbody #content #bar {
+	width: 21px;
+	height: auto;
+	display: block;
+	float: left;
+}
+
+.ostbody #ticketform {
+	padding: 20px 20px 50px 20px;
+	width: 600px;
+	margin: 20px auto 20px auto;
+	border: 1px solid;
+}
+
+.ostbody #loginform {
+	padding: 20px 20px 50px 20px;
+	width: 400px;
+	margin: 20px auto 20px auto;
+	border: 1px solid;
+}
+
+.ostbody #ticketform input,#ticketform select {
+	width: 300px;
+	float: left;
+}
+
+.ostbody #loginform input {
+	width: 160px;
+	float: left;
+}
+
+.ostbody #ticketform label {
+	width: 130px;
+	text-align: right;
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
+.ostbody #loginform label {
+	width: 130px;
+	text-align: right;
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
+.ostbody #ticketform textarea {
+	width: 400px;
+}
+
+.ostbody #ticketform .ticketsubmit {
+	margin-left: 410px;
+}
+
+.ostbody #loginform .ticketsubmit {
+	margin-left: 170px;
+}
+
+.ostbody #powered_by {
+	display: none;
+}
+
+.ostbody .error {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	border: none;
+	font-weight: bold;
+}
+
+.ostbody .msg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13.5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.ostbody #infomessage,#warnmessage,#errormessage {
+	margin-bottom: 1.5em;
+	padding: 0.3em;
+	font-weight: bold;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+/* Buttons  */
+.ostbody .button,.button2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.ostbody .button {
+	border: 1px solid;
+}
+
+/* Generic CSS based Icons. use=> <tag class="Icon iconname">text</tag> */
+.ostbody .Icon {
+	width: auto;
+	padding-left: 20px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	color: #006699;
+	text-decoration: none;
+}
+
+.ostbody a.Icon {
+	
+}
+
+.ostbody a.Icon:hover {
+	text-decoration: underline;
+}
+
+.ostbody .Icon.Ticket {
+	background: url(../../osticket/upload/images/icons/ticket.gif) 0 2px no-repeat;
+}
+
+.ostbody .Icon.webTicket {
+	background: url(../../osticket/upload/images/icons/ticket_source_web.gif) 0 2px no-repeat;
+}
+
+.ostbody .Icon.emailTicket {
+	background: url(../../osticket/upload/images/icons/ticket_source_email.gif) 0 2px no-repeat
+		;
+}
+
+.ostbody .Icon.phoneTicket {
+	background: url(../../osticket/upload/images/icons/ticket_source_phone.gif) 0 2px no-repeat
+		;
+}
+
+.ostbody .Icon.otherTicket {
+	background: url(../../osticket/upload/images/icons/ticket_source_other.gif) 0 2px no-repeat
+		;
+}
+
+.ostbody .Icon.attachment {
+	background-image: url(../../osticket/upload/images/icons/attachment.gif);
+}
+
+.ostbody .Icon.file {
+	background-image: url(../../osticket/upload/images/icons/attachment.gif);
+}
+
+.ostbody .Icon.refresh {
+	background-image: url(../../osticket/upload/images/icons/refresh.gif);
+}
+
+.ostbody .Icon.thread {
+	font-weight: bold;
+	font-size: 1em;
+	background-image: url(../../osticket/upload/images/icons/thread.gif);
+}
+
+/* Ticket view (Messages and Responses) */
+.ostbody #ticketthread table.message {
+	margin: 10px 0 5px 0;
+}
+
+.ostbody #ticketthread table.response {
+	margin-bottom: 5px;
+}
+
+.ostbody table.message,table.response {
+	border: 1px solid;
+	border-bottom: none;
+}
+
+.ostbody table.message td,table.message th,table.response td,table.response th {
+	border-bottom: 1px solid;
+	padding: 5px;
+}
+
+.ostbody table.message tr.header td,table.response tr.header td {
+	padding: 1px;
+	padding-left: 5px;
+}
+
+.ostbody table.message th,table.response th {
+	line-height: 24px;
+	font-size: 12px;
+	padding: 1px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+/* Index page */
+.ostbody #index {
+	padding: 15px 0px 20px 0px;
+}
+
+.ostbody #index h1 {
+	font-size: 15pt;
+}
+
+.ostbody .big {
+	font-size: 13pt;
+	line-height: 1.4em;
+}
+
+.ostbody .lcol {
+	width: 350px;
+	float: left;
+}
+
+.ostbody .rcol {
+	width: 350px;
+	float: right;
+}
+
+.ostbody .clear {
+	clear: both;
+}
+
+.ostbody .lcol h3,.rcol h3 {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ff8100;
+}
+
+.ostbody .lcol .btn,.lcol .btn a,.rcol .btn,.rcol .btn a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 5px;
+	border: 1px solid;
+}

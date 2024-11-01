@@ -1,0 +1,195 @@
+/* default text and background colors */
+.ostbody {
+  color:#333;
+  background-color: #fff;
+  background-image: url(../../osticket/upload/images/bg.gif);
+  background-repeat: repeat;
+}
+
+/* default link color */
+.ostbody a { color:#006699; text-decoration: none; }
+
+/* default link hover color */
+.ostbody a:hover { color:#DB8606; text-decoration: none; }
+
+
+.ostbody #container {
+    background:#fff;
+    border-color:#ccc;
+}
+
+.ostbody #loginform, .ostbody #ticketform {
+  background:#f1f1f1;
+  border-color:#ccc;
+}
+
+/* bottom border of header */
+.ostbody #header {
+  border-color:#000;
+}
+
+/* "SUPPORT TICKET SYSTEM" default text */
+.ostbody #header p {
+  color:#666;
+}
+
+/* "SUPPORT TICKET" color */
+.ostbody #header p span {
+  color:#fe7700;
+}
+
+/* top nav background and bottom border */
+.ostbody #nav {
+  background:#f1f1f1;
+  border-color:#ccc;
+}
+
+/* nav link color */
+.ostbody #nav li a {
+  color:#006699;
+  font-weight:bold;
+}
+
+/* nav link hover color */
+.ostbody #nav a:hover {
+  color:#fe7700;
+}
+
+/* footer background and border */
+.ostbody #footer {
+  background:#f1f1f1;
+  border-color:#ccc;
+}
+
+/* Headings */
+.ostbody h1 {
+  color:#fe7700;
+}
+.ostbody h2 {
+  color:#333;
+}
+.ostbody h3 {
+  color:#666;
+}
+
+
+/* Data Table */
+.ostbody table.tgrid {
+ border-left: 1px solid;
+}
+
+.ostbody table.tgrid td {
+  border:1px solid;
+  border-top:none;
+  border-left:none;
+}
+
+.ostbody table.tgrid th {
+  color: #FFF;
+  font-size: 12px; 
+  font-weight:bold;
+}
+
+
+.ostbody table.tgrid, .ostbody table.tgrid td, .ostbody table.tgrid th {
+  border-color:#ADADAD;
+}
+
+/* Table headings */
+.ostbody table.tgrid th {
+  background:#ADADAD;;
+  color:#FFF;
+}
+
+.ostbody table.tgrid th a, .ostbody table.tgrid th a:hover {
+  color:#FFF;
+  text-decoration:underline;
+}
+
+/* row highlighting on hover */
+.ostbody .tgrid tr:hover td {  background-color: #FFFFDD; }
+
+/* Alt rows used on most data tables */
+.ostbody .row1 { background-color: #F4FAFF; }
+.ostbody .row2 { background-color: #FFFFFF; }
+
+/* auto-highlight */
+.ostbody .row1.highlight td, .ostbody.row2.highlight td {
+    background-color: #FFFFDD;
+}
+
+
+/* mesages, .ostbody warning and errors */
+.ostbody .error {
+    color: #FF0000;
+}
+
+.ostbody .msg {
+    color:#006699;
+}
+
+.ostbody #infomessage {
+  background-color: #390;
+  border-color: #390;
+  color: #390;
+  background: #CFC;
+}
+
+.ostbody #errormessage {
+    border-color: #903;
+    background-color: #fcc;
+    color: #903;
+}
+
+.ostbody #warnmessage {
+    border-color: #fad163;
+    background-color: #fdedc1;
+}
+
+/* Input buttons/submits colors*/
+.ostbody .button {
+    background-color: #DB8606;
+    color: #FFF;
+    border-color: #666;
+}
+
+/* Assorted number of tables used on view ticket.*/
+
+.ostbody table.infotable td, .ostbody table.infotable th {
+    background-color: #F4FAFF;
+}
+
+.ostbody table.infotable th {
+    font-weight:bold;
+    text-align:left;
+    padding-left:3px;
+}
+
+/* Response & message background */
+.ostbody table.message, .ostbody table.response {
+    border-color:#ADADAD;
+}
+
+/* Message title */
+.ostbody table.message th {
+    background-color: #C3D9FF;
+}
+/* Response title */
+.ostbody table.response th {
+    background-color: #FFE0B3;
+}
+
+/* message & response header */
+.ostbody table.message tr.header td, .ostbody table.response tr.header td {
+    background-color: #EFEFEF;
+    border-color:#ccc;
+}
+
+/* table cells bg */
+.ostbody table.message td, .ostbody table.response td {
+  background-color: #FAFAFA;
+}
+
+.ostbody .rcol h3, .ostbody .lcol h3 { color:#006699; }
+
+.ostbody hr { border:none; border-bottom:1px solid #ccc; margin:10px 0 10px 0; }
